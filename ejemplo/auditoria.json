@@ -1,0 +1,38 @@
+{
+  "ejemplo": true,
+  "negocio": "Pizzería Luigi",
+  "saludo": "Luigi",
+  "ciudad": "Madrid",
+  "web": "pizzerialuigi.es",
+  "fecha": "2026-10-19",
+  "total_mes": 1240,
+  "resumen": "Hemos leído vuestra web, vuestras 412 reseñas de Google y vuestro Instagram. Hay tres sitios por donde se os escapan clientes que ya querían venir.",
+  "fugas": [
+    {
+      "titulo": "Reservas solo por teléfono",
+      "prueba": { "texto": "«Reservas solo por teléfono: 91 000 00 00» · y 9 reseñas que dicen «no cogen el teléfono»", "fuente": "pizzerialuigi.es · Google" },
+      "que_pasa": "Los viernes y sábados, con el local lleno, el teléfono suena y nadie lo coge. Ese cliente reserva en la pizzería de al lado.",
+      "calculo": "120 llamadas para reservar al mes · 1 de cada 5 sin atender · 6 de cada 10 no vuelven a llamar ≈ 14 reservas perdidas × 62 € (2,6 personas × 24 € de vuestra carta)",
+      "euros_mes": 870,
+      "solucion": "Reservas online 24/7 en la web, en Google y en la bio de Instagram, con recordatorio por WhatsApp."
+    },
+    {
+      "titulo": "Presupuestos a mano",
+      "prueba": { "texto": "«Eventos y comuniones: pide presupuesto por email» · sin respuesta automática", "fuente": "pizzerialuigi.es/eventos" },
+      "que_pasa": "Quien organiza una comunión pide 3 presupuestos y se queda con el primero que llega. El vuestro sale días después.",
+      "calculo": "6 solicitudes de eventos al mes · 4 de cada 10 se enfrían por tardar · cerráis 1 de cada 3 ≈ 0,8 eventos × 250 €",
+      "euros_mes": 200,
+      "solucion": "Formulario que da un presupuesto orientativo al momento y os avisa para confirmarlo."
+    },
+    {
+      "titulo": "Mensajes sin contestar",
+      "prueba": { "texto": "Comentarios como «¿tenéis mesa para 6 el sábado?» sin respuesta · bio: «escríbenos por DM»", "fuente": "Instagram @pizzerialuigi" },
+      "que_pasa": "Quien pregunta por Instagram o WhatsApp está a punto de venir. Si la respuesta llega horas después, ya ha cenado en otro sitio.",
+      "calculo": "40 mensajes con intención de venir al mes · 3 de cada 10 sin respuesta en la primera hora · 1 de cada 4 habría venido ≈ 3 mesas × 57 €",
+      "euros_mes": 170,
+      "solucion": "Asistente de WhatsApp e Instagram que contesta al momento, da horarios y reserva mesa."
+    }
+  ],
+  "extras": ["Respondéis a 2 de cada 10 reseñas: responder a todas sube la nota y la confianza de quien os busca."],
+  "autor": { "nombre": "Tu nombre", "marca": "Tu marca", "contacto": { "tipo": "whatsapp", "valor": "34600000000" } }
+}

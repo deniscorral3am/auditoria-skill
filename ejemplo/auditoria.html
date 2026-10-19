@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Auditoría · Pizzería Luigi</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--papel:#f6f2ea;--tinta:#16130f;--gris:#6d665c;--linea:#e2dacb;--rojo:#c8452c;--verde:#1f7a46;--amar:#ffe27a}
+*{box-sizing:border-box}body{margin:0;background:var(--papel);color:var(--tinta);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 20px 80px}
+.aviso{background:var(--tinta);color:var(--papel);text-align:center;font-size:13px;padding:8px;letter-spacing:.04em}
+.eti{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--gris)}
+h1{font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.03em;margin:10px 0 18px}
+.total{background:#fff;border:1px solid var(--linea);border-radius:20px;padding:28px 26px;margin:26px 0 12px}
+.total .k{font-size:15px;color:var(--gris)}
+.total .v{font-size:clamp(52px,13vw,88px);font-weight:800;letter-spacing:-.04em;color:var(--rojo);line-height:1;margin:6px 0 4px}
+.total .v small{font-size:.32em;color:var(--gris);font-weight:600;letter-spacing:0}
+.barra{display:flex;gap:4px;height:10px;margin-top:18px}.barra i{background:var(--rojo);border-radius:6px;opacity:.85}.barra i:nth-child(2){opacity:.6}.barra i:nth-child(3){opacity:.38}
+.lead{font-size:19px;color:#3a352e}
+h2{font-size:24px;letter-spacing:-.02em;margin:48px 0 14px}
+.fuga{background:#fff;border:1px solid var(--linea);border-radius:18px;padding:22px 22px 8px;margin:14px 0}
+.fcab{display:flex;align-items:center;gap:12px}.fcab h3{flex:1;margin:0;font-size:20px;letter-spacing:-.01em}
+.n{width:30px;height:30px;border-radius:50%;background:var(--tinta);color:#fff;display:grid;place-items:center;font-weight:700;font-size:15px;flex:none}
+.eur{font-weight:800;color:var(--rojo);font-size:20px;white-space:nowrap}.eur small{font-weight:600;font-size:13px;color:var(--gris)}
+blockquote{margin:16px 0 10px;padding:12px 14px;background:#fbf8f1;border-left:4px solid var(--amar);border-radius:8px;font-size:15.5px}
+cite{display:block;font-style:normal;font-size:12.5px;color:var(--gris);margin-top:6px}
+.calc,.sol{font-size:15px;border-top:1px dashed var(--linea);padding-top:12px}.calc b:first-child,.sol b:first-child{display:block;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--gris);margin-bottom:2px}
+.calc .r{color:var(--rojo)}.sol{color:var(--verde)}.sol b:first-child{color:var(--verde)}
+ul{padding-left:20px}li{margin:6px 0}
+.metodo{font-size:14.5px;color:var(--gris)}
+.cta{display:block;text-align:center;background:var(--tinta);color:#fff;text-decoration:none;font-weight:700;font-size:18px;padding:18px;border-radius:14px;margin:34px 0 12px}
+.pie{text-align:center;font-size:13.5px;color:var(--gris)}
+@media print{.cta{border:2px solid var(--tinta)}.fuga,.total{break-inside:avoid}}
+</style></head><body>
+<div class="aviso">Ejemplo con un negocio ficticio</div>
+<main>
+  <div class="eti">Auditoría · Pizzería Luigi · Madrid · 19 de octubre de 2026</div>
+  <h1>Luigi, se os escapan unos 1.240 € al mes.</h1>
+  <p class="lead">Hemos leído vuestra web, vuestras 412 reseñas de Google y vuestro Instagram. Hay tres sitios por donde se os escapan clientes que ya querían venir.</p>
+  <div class="total"><div class="k">Lo que perdéis al mes, por lo bajo</div><div class="v">1.240 €<small> /mes</small></div>
+    <div class="k">≈ 14.880 € al año</div><div class="barra"><i style="flex:870" title="Reservas solo por teléfono"></i><i style="flex:200" title="Presupuestos a mano"></i><i style="flex:170" title="Mensajes sin contestar"></i></div></div>
+  <h2>Las 3 fugas</h2>
+  <article class="fuga">
+    <div class="fcab"><span class="n">1</span><h3>Reservas solo por teléfono</h3><span class="eur">−870 €<small>/mes</small></span></div>
+    <blockquote>«Reservas solo por teléfono: 91 000 00 00» · y 9 reseñas que dicen «no cogen el teléfono»<cite>pizzerialuigi.es · Google</cite></blockquote>
+    <p>Los viernes y sábados, con el local lleno, el teléfono suena y nadie lo coge. Ese cliente reserva en la pizzería de al lado.</p>
+    <p class="calc"><b>Cómo lo calculamos</b>120 llamadas para reservar al mes · 1 de cada 5 sin atender · 6 de cada 10 no vuelven a llamar ≈ 14 reservas perdidas × 62 € (2,6 personas × 24 € de vuestra carta) ≈ <b class="r">870 € al mes</b></p>
+    <p class="sol"><b>Cómo se arregla</b>Reservas online 24/7 en la web, en Google y en la bio de Instagram, con recordatorio por WhatsApp.</p>
+  </article>
+  <article class="fuga">
+    <div class="fcab"><span class="n">2</span><h3>Presupuestos a mano</h3><span class="eur">−200 €<small>/mes</small></span></div>
+    <blockquote>«Eventos y comuniones: pide presupuesto por email» · sin respuesta automática<cite>pizzerialuigi.es/eventos</cite></blockquote>
+    <p>Quien organiza una comunión pide 3 presupuestos y se queda con el primero que llega. El vuestro sale días después.</p>
+    <p class="calc"><b>Cómo lo calculamos</b>6 solicitudes de eventos al mes · 4 de cada 10 se enfrían por tardar · cerráis 1 de cada 3 ≈ 0,8 eventos × 250 € ≈ <b class="r">200 € al mes</b></p>
+    <p class="sol"><b>Cómo se arregla</b>Formulario que da un presupuesto orientativo al momento y os avisa para confirmarlo.</p>
+  </article>
+  <article class="fuga">
+    <div class="fcab"><span class="n">3</span><h3>Mensajes sin contestar</h3><span class="eur">−170 €<small>/mes</small></span></div>
+    <blockquote>Comentarios como «¿tenéis mesa para 6 el sábado?» sin respuesta · bio: «escríbenos por DM»<cite>Instagram @pizzerialuigi</cite></blockquote>
+    <p>Quien pregunta por Instagram o WhatsApp está a punto de venir. Si la respuesta llega horas después, ya ha cenado en otro sitio.</p>
+    <p class="calc"><b>Cómo lo calculamos</b>40 mensajes con intención de venir al mes · 3 de cada 10 sin respuesta en la primera hora · 1 de cada 4 habría venido ≈ 3 mesas × 57 € ≈ <b class="r">170 € al mes</b></p>
+    <p class="sol"><b>Cómo se arregla</b>Asistente de WhatsApp e Instagram que contesta al momento, da horarios y reserva mesa.</p>
+  </article>
+  <h2>Además</h2><ul><li>Respondéis a 2 de cada 10 reseñas: responder a todas sube la nota y la confianza de quien os busca.</li></ul>
+  <h2>Cómo lo hemos calculado</h2>
+  <p class="metodo">Todo sale de lo que se ve en público: vuestra web (pizzerialuigi.es), vuestras reseñas y vuestras redes.
+  Los precios son los vuestros cuando los publicáis y, si no, la media de vuestro sector. Hemos tirado siempre por lo bajo:
+  lo más probable es que la cifra real sea mayor. Si algún dato no os cuadra, decídnoslo y lo recalculamos con el vuestro.</p>
+  <a class="cta" href="https://wa.me/34600000000?text=Hola%2C%20he%20visto%20la%20auditor%C3%ADa%20de%20Pizzer%C3%ADa%20Luigi%20y%20quiero%20hablarlo.">Hablarlo por WhatsApp</a>
+  <p class="pie">Preparado por Tu nombre · Tu marca</p>
+</main></body></html>
